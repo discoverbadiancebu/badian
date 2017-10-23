@@ -138,6 +138,13 @@ p , .text{
     font-family: dry_brush,Roboto;
     font-size: 35pt;
 }
+@media only screen and (max-width: 1300px){
+    .image-container p {
+        text-align: center;
+        font-family: dry_brush,Roboto;
+        font-size: 25pt;
+    }
+}
 
 @media only screen and (min-width: 601px){
     nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
